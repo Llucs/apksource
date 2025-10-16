@@ -30,10 +30,10 @@ I am not responsible for bricked devices, corrupted SD cards, data loss, job los
 
 Clone the repository:  
 
-```bash
+`bash
 git clone https://github.com/yourusername/ApkSource.git
 cd ApkSource
-chmod +x ApkSource.sh```
+chmod +x ApkSource.sh`
 
 
 ---
