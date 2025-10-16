@@ -73,4 +73,4 @@ Detailed logging for easy debugging
 
 License
 
-MIT License — see LICENSE file.
+MIT License — see (LICENSE)[https://github.com/Llucs/apksource/blob/main/LICENSE] file.
