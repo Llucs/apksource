@@ -30,8 +30,7 @@ I am not responsible for bricked devices, corrupted SD cards, data loss, job los
 
 Clone the repository:  
 
-`bash
-git clone https://github.com/yourusername/ApkSource.git
+`git clone https://github.com/yourusername/ApkSource.git
 cd ApkSource
 chmod +x ApkSource.sh`
 
@@ -40,7 +39,7 @@ chmod +x ApkSource.sh`
 
 Usage
 
-./ApkSource.sh path/to/your.apk [skip-backup]
+`./ApkSource.sh path/to/your.apk [skip-backup]`
 
 path/to/your.apk → APK to decompile
 
@@ -49,7 +48,7 @@ path/to/your.apk → APK to decompile
 
 After running, a Gradle project will be generated in the PatchedApp folder, ready to open in Android Studio or build with:
 
-./gradlew build
+`./gradlew build`
 
 
 ---
