@@ -16,13 +16,15 @@ I am not responsible for bricked devices, corrupted SD cards, data loss, job los
 
 ## Prerequisites
 
-- Java JDK (JAVA_HOME set)  
-- Android SDK (ANDROID_HOME or ANDROID_SDK_ROOT set)  
-- Gradle 8.7+  
-- apktool 2.7.0+  
-- jadx 1.4.7+  
-- Python 3  
-- grep and sed  
+- Java JDK 17+ (JAVA_HOME set, includes keytool)
+- Android SDK (ANDROID_HOME or ANDROID_SDK_ROOT set – optional for generation, required for full builds)
+- Gradle 8.7+
+- apktool 2.7.0+
+- jadx 1.4.7+
+- Python 3
+- grep and sed
+- unzip and zip
+- file (from coreutils)  
 
 ---
 
