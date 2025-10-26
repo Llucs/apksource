@@ -40,10 +40,24 @@ Installation
 cd ApkSource
 chmod +x ApkSource.sh`
 
-Install dependencies on Linux:
+Install dependencies:
+
+On Ubuntu/Debian
 
 `pkg install apktool python openjdk-17 unzip zip findutils coreutils grep sed file`
 
+On Fedora
+
+`sudo dnf install apktool python3 java-17-openjdk unzip zip findutils coreutils grep sed file`
+
+On Arch Linux
+
+`sudo pacman -S python jdk17-openjdk unzip zip findutils coreutils grep sed file
+yay -S apktool`
+
+On Alpine Linux
+
+`sudo apk add apktool python3 openjdk17 unzip zip findutils coreutils grep sed file`
 
 ---
 
@@ -53,7 +67,7 @@ Command	Description
 
 `./ApkSource.sh /path/to/app.apk`	Basic usage, generates project in current directory
 `./ApkSource.sh app.apk true`	Skips backup if project exists
-`./ApkSource.sh app.apk fals MyProject`	Sets custom project name
+`./ApkSource.sh app.apk false MyProject`	Sets custom project name
 
 
 After execution:
