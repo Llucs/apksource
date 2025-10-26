@@ -18,17 +18,17 @@ Use at your own risk. The author is not responsible for data loss, corrupted dev
 
 ---
 
-Prerequisites
+### Prerequisites
 
-Tool / Requirement	Minimum Version	Notes
-
-Java JDK	17+	JAVA_HOME must be set, includes keytool
-Gradle	8.7+	Required for project build and wrapper
-apktool	2.7.0+	Used for resource decompilation
-jadx	1.4.7+	Used for code decompilation (Java/Kotlin)
-Python	3.x	For ProGuard mapping and automation
-Core utilities	-	grep, sed, unzip, zip, file
-Android SDK	Optional	Required for full builds
+| **Tool / Requirement** | **Minimum Version** | **Notes** |
+|------------------------|---------------------|-----------|
+| Java JDK              | 17+                 | JAVA_HOME must be set, includes keytool |
+| Gradle                | 8.7+                | Required for project build and wrapper |
+| apktool               | 2.7.0+              | Used for resource decompilation |
+| jadx                  | 1.4.7+              | Used for code decompilation (Java/Kotlin) |
+| Python                | 3.x                 | For ProGuard mapping and automation |
+| Core utilities        | -                   | grep, sed, unzip, zip, file |
+| Android SDK           | Optional            | Required for full builds |
 
 
 
