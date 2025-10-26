@@ -1,4 +1,6 @@
-ApkSource
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Llucs/apksource/main/banner.png" alt="Apksource Banner" width="400"/>
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
