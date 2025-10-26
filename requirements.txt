@@ -12,3 +12,4 @@ sed
 zip
 findutils
 keytool
+file
