@@ -156,4 +156,4 @@ Debugging build issues: Use ./gradlew assembleDebug --stacktrace for detailed lo
 License
 
 MIT License © Llucs
-(LICENSE)[https://github.com/Llucs/apksource/blob/main/LICENSE]
+[LICENSE](https://github.com/Llucs/apksource/blob/main/LICENSE)
