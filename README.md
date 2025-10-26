@@ -36,13 +36,13 @@ Android SDK	Optional	Required for full builds
 
 Installation
 
-```git clone https://github.com/Llucs/ApkSource.git
+`git clone https://github.com/Llucs/ApkSource.git
 cd ApkSource
-chmod +x ApkSource.sh```
+chmod +x ApkSource.sh`
 
-Install dependencies on Termux/Linux:
+Install dependencies on Linux:
 
-```pkg install apktool python openjdk-17 unzip zip findutils coreutils grep sed```
+`pkg install apktool python openjdk-17 unzip zip findutils coreutils grep sed file`
 
 
 ---
@@ -51,15 +51,15 @@ Usage
 
 Command	Description
 
-```./ApkSource.sh /path/to/app.apk```	Basic usage, generates project in current directory
-```./ApkSource.sh app.apk true```	Skips backup if project exists
-./ApkSource.sh app.apk false``` MyProject	Sets custom project name
+`./ApkSource.sh /path/to/app.apk`	Basic usage, generates project in current directory
+`./ApkSource.sh app.apk true`	Skips backup if project exists
+`./ApkSource.sh app.apk fals MyProject`	Sets custom project name
 
 
 After execution:
 
-```cd MyProject
-./gradlew build```
+`cd MyProject
+./gradlew build`
 
 Open in Android Studio to explore and modify the project.
 
