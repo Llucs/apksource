@@ -10,6 +10,7 @@
 
 ApkSource converts any Android APK into a complete, multi-module Gradle project, ready for Android Studio. It decompiles resources and code, applies safe ProGuard mapping, detects modules and dependencies, and configures Gradle automatically — without compiling the APK.
 
+### (APKSOURCE IS CURRENTLY UNDER CONSTANT DEVELOPMENT AND STILL HAS SOME ERRORS, PLEASE WAIT FOR THE CORRECTION)
 
 ---
 
