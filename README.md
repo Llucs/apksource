@@ -38,6 +38,7 @@ pip install apksource
 
 Or, if you have the source code:
 
+```
 git clone https://github.com/Llucs/apksource.git
 cd apksource
 pip install .
