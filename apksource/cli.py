@@ -7,7 +7,7 @@ from rich.console import Console
 from rich.panel import Panel
 from .core import check_all_dependencies, decompile_apk, smart_project_name, ApkSourceError, log_info
 
-VERSION = "1.3.0"
+VERSION = "1.3.1"
 console = Console()
 
 def print_help_menu(ctx):
