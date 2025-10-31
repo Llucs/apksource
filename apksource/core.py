@@ -84,10 +84,10 @@ def check_all_dependencies():
         r'(\d+\.\d+\.\d+)'
     )
     check_dependency(
-        "jadx",
-        MIN_JADX_VERSION,
-        "jadx --version",
-        r'jadx\s+version\s+(\d+\.\d+\.\d+)'
+    "jadx",
+    MIN_JADX_VERSION,
+    "jadx --version",
+    r'(\d+\.\d+\.\d+)'
     )
 
 def smart_project_name(apk_path):
