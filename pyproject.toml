@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apksource"
+version = "1.3.0"
+description = "ApkSource is a program to directly transform APK into source code."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Llucs", email = "c307lucas@gmail.com" }
+]
+keywords = ["apk", "android", "reverse-engineering", "gradle", "jadx", "apktool"]
+
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0"
+]
+
+[project.scripts]
+apksource = "apksource.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["apksource*"]
+
+[project.urls]
+"Homepage" = "https://github.com/Llucs/apksource"
+"Issues" = "https://github.com/Llucs/apksource/issues"
