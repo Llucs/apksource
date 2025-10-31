@@ -35,10 +35,11 @@ You can install ApkSource directly from **PyPI**:
 
 ```bash
 pip install apksource
+```
 
 Or, if you have the source code:
 
-```
+```bash
 git clone https://github.com/Llucs/apksource.git
 cd apksource
 pip install .
